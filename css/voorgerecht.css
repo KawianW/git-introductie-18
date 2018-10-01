@@ -1,0 +1,59 @@
+body{
+
+	padding: 0;
+	margin: 0;
+}
+#horizontal-line{
+
+		width: 500px;
+		height: 1px;
+		background-color: silver;
+		margin-bottom: 30px;
+}
+
+#voorgerecht{
+	margin: 0 25%;
+font-family: 'Roboto', sans-serif;
+}
+
+.list{
+	margin-top: 10px;
+}
+
+.order{
+	margin-top: 10px;
+}
+
+#NavBar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+#NavBar ul {
+	list-style: none;
+
+}
+
+#NavBar li {
+    float: left;
+    
+
+}
+
+#NavBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    margin-left: 260px;
+}
+
+#NavBar li a:hover {
+    background-color: #111111;
+   }
